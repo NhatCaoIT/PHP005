@@ -1,0 +1,51 @@
+#boss{
+    width: 1000px;
+    margin: auto;
+}
+
+#main{
+    padding: auto;
+    width: 620px;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    background: rgb(70, 103, 209);
+}
+#content{
+    margin-bottom: 10px;
+    float: left;
+    width: 400px;
+    height: 250px;
+    background: cyan;
+    margin-right: 10px;
+}
+#sidebar{
+    margin-bottom: 10px;
+    float: left;
+    width: 200px;
+    height: 250px;
+    background: cyan;
+
+}
+.twin{
+    margin-right: 10px;
+    float: left;
+    width: 300px;
+    height: 250px;
+    background: cyan;
+    padding-bottom: 10px;
+
+}
+.twin1{
+    width: 300px;
+    height: 250px;
+    background: cyan;
+    padding-bottom: 10px;
+}
+#footer{
+    clear: left;
+    width: 1000px;
+    height: 100px;
+    background: blue;
+}

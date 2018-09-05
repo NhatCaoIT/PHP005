@@ -1,0 +1,26 @@
+#x1{
+    border: 3px dotted black;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+#text{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+h1{
+    border: 2px dotted black;
+   height: 100px;
+   padding: 5px;
+   margin: 10px;
+}
+#text2{
+    border: 2px dotted black;
+    height: 100px;
+    padding: 5px;
+    margin: 10px;
+    
+    
+}
