@@ -1,17 +1,17 @@
 #boss{
     width: 1000px;
     margin: auto;
-}
-
-#main{
-    padding: auto;
-    width: 620px;
-}
+        }
 #header{
     width: 1000px;
     height: 100px;
     background: rgb(70, 103, 209);
 }
+#main{
+    margin: 0px auto;
+    width: 620px;
+    height: 400px;
+    }
 #content{
     margin-bottom: 10px;
     float: left;

@@ -1,13 +1,16 @@
 #boss{
     width: 1000px;
-    margin: auto;
+    margin: 0px  auto;
 }
 
 #main{
-    padding: auto;
-    width: 620px;
+    margin: 0px auto;
+    /* padding: auto; */
+    width: 600px;
+    height: 400px;
 }
 #header{
+    margin-bottom: 10px;
     width: 1000px;
     height: 100px;
     background: rgb(70, 103, 209);
@@ -34,8 +37,6 @@
     width: 300px;
     height: 250px;
     background: cyan;
-    padding-bottom: 10px;
-
 }
 .twin1{
     width: 300px;
@@ -44,6 +45,7 @@
     padding-bottom: 10px;
 }
 #footer{
+    margin-top: 10px;
     clear: left;
     width: 1000px;
     height: 100px;
