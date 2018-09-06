@@ -1,0 +1,76 @@
+#boss{
+    width: 100%;
+    margin: 0px auto;
+}
+#header{
+    background: blueviolet;
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    border: 1px solid rgb(15, 1, 1);
+}
+#main{
+    height: 600px;
+    width: 1000px;
+    border: 1px solid rgb(17, 2, 2);
+}
+#left{
+    float: left;
+    width: 200px;
+    text-align: center;
+    background: gray;
+    height: 600px;
+    border: 1px solid rgb(8, 1, 1);
+}
+#center{
+    float: left;
+    width: 594px;
+    text-align: center;
+    background: white;
+    height: 600px;
+    border: 1px solid rgb(14, 1, 1);
+}
+#pre-body{
+    height: 150px;
+    border: 1px solid rgb(14, 1, 1);
+    text-align: center;
+    background: rgb(119, 190, 37);
+}
+#body{
+    height: 294px;
+    border: 1px solid rgb(17, 1, 1);
+}
+#post-body{
+    height: 150px;
+    border: 1px solid rgb(14, 1, 1);
+    background: rgb(119, 190, 37);
+}
+#right{
+    float: left;
+    height: 600px;
+    background: gray;
+    border: 1px solid rgb(22, 3, 3);
+    text-align: center;
+    width: 200px;
+}
+#footer{
+    height: 100px;
+    width: 1000px;
+    background: blueviolet;
+    clear: left;
+    text-align: center;
+    border: 1px solid rgb(14, 2, 2);
+}
+@media all and (min-width:720px){
+    #header{
+        background: gold;
+    }
+}
+@media all and (max-width:800px){
+    #boss{
+        background: blue;
+    }
+}
+
+
+

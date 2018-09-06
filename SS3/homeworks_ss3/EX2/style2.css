@@ -1,4 +1,5 @@
 #boss{
+    border: 2px solid gray;
     width: 1000px;
     margin: auto;
         }
@@ -10,7 +11,7 @@
 #main{
     margin: 0px auto;
     width: 620px;
-    height: 400px;
+    height: 520px;
     }
 #content{
     margin-bottom: 10px;
@@ -36,12 +37,6 @@
     background: cyan;
     padding-bottom: 10px;
 
-}
-.twin1{
-    width: 300px;
-    height: 250px;
-    background: cyan;
-    padding-bottom: 10px;
 }
 #footer{
     clear: left;
