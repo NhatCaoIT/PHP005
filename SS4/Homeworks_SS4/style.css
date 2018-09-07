@@ -1,0 +1,165 @@
+#boss{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background: rgb(59, 128, 231);
+}
+#brand{
+    width: 20%;
+    height: 50px;
+    background:  rgb(171, 195, 230);
+    float: left;
+    margin: 3%;
+    margin-top: 5px;
+    text-align: center;
+}
+#globolnav{
+    width: 40%;
+    height: 50px;
+    background:  rgb(171, 195, 230);
+    float: left;
+    margin: 3%;
+    margin-top: 5px;
+    text-align: center;
+
+}
+#tools{
+    width: 25%;
+    height: 50px;
+    background:  rgb(171, 195, 230);
+    float: left;
+    margin: 1%;
+    margin-top: 5px;
+    text-align: center;
+}
+#main{
+    height:600px ;
+    margin: auto;
+}
+#main1{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+#hero{
+    height: 200px;
+    float: left;
+    width: 70%;
+    background: rgb(59, 128, 231);
+}
+#H21{
+    margin-left: 20px;
+    float: left;
+    background:  rgb(171, 195, 230);
+    height: 130px;
+    width: 55%;
+}
+#H22{
+    margin-left: 20px;
+    float: left;
+    background:  rgb(171, 195, 230);
+    height: 130px;
+    width: 40%;
+
+}
+
+
+#AD{
+    margin-left: 5%;
+    height: 200px;
+    float: left;
+    width: 25%;
+    background: rgb(59, 128, 231);
+}
+#main2{
+    height: 400px;
+    width: 100%; 
+    margin-bottom: 2%; 
+}
+#body{
+    float: left;
+    height: 400px;
+    background: rgb(59, 128, 231);
+    width: 70%;   
+}
+#B41{
+    margin-left: 2%;
+    float: left;
+    background:  rgb(171, 195, 230);
+    height: 335px;
+    width: 35%;
+}
+#B42{
+    margin-left: 2%;
+    float: left;
+    background:  rgb(171, 195, 230);
+    height: 335px;
+    width: 60%;
+
+
+}
+
+
+#sidebar{
+    float: left;
+    height: 400px;
+    background: rgb(59, 128, 231);
+    width: 25%;
+    margin-left: 5%;
+}
+#S51{
+    height: 335px;
+    background:  rgb(171, 195, 230);
+    margin: 10px;
+
+}
+#footer{
+    width: 100%;
+    background: rgb(59, 128, 231);
+    height: 100px;
+    margin: 10px;
+}
+@media screen and (max-width:1280px){
+    #H21, #H22{
+        width: 99%;
+        height: 65px;
+        margin : 2px;
+    }
+    #main{
+        height: 600px;
+    }
+    #main2{
+        height: 400px;
+        width: 100%;
+    }
+    #body{
+        height: 200px;
+        width: 100%;
+    }
+    #B41{
+        float: left;
+        height: 50px;
+        width: 50%;
+    }
+    #B42{
+        float: left;
+        height: 100px;
+        width: 90%;
+        margin-top: 5px;
+    }
+    #sidebar{
+        float: left;
+        height:100px ;
+        width: 90%;
+    }
+    #S51{
+        height: 50px;
+        width: 99%;
+    
+    }
+   
+}
+
