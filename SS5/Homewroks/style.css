@@ -1,0 +1,63 @@
+#boss{
+    height: 250px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0px auto;
+}
+li{
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+}
+.Nav2 a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+hr{
+    border: 1px solid black;
+    width: 450px;
+    margin: auto;
+}
+h3{
+    margin-left: 25px;
+}
+#li1{
+    background: blue;
+    height: 40px;
+    width: 80px;
+    margin-left: -12px;
+}
+#li2{
+    background: blue;
+    height: 40px;
+    width: 100px;
+    margin-left: -9px;
+}
+#li3{
+    background: blue;
+    height: 40px;
+    width: 170px;
+    margin-left: -9px;
+}
+#li4{
+    background: blue;
+    height: 40px;
+    width: 100px;
+    margin-left: -9px;
+}
+#a3{
+    text-decoration: none;
+}
+#nav2_a3{
+    color: yellow;
+}
+.Nav1 a{
+    margin: auto;
+    text-align: center;
+    color: blue;
+}
+
+

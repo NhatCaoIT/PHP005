@@ -1,0 +1,19 @@
+ul li{
+    list-style-type: square;
+    list-style-image: url('icon1.ico');
+}
+ol li{
+    list-style-type: armenian;
+    list-style-image: url('icon1.ico');
+}
+a:link{
+    text-decoration: none;
+    color: rgb(40, 224, 80);
+    
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color: blueviolet;
+}
