@@ -1,0 +1,40 @@
+#banner{
+    height: 80px;
+}
+#banner ul{
+    margin-left: 200px
+
+}
+#banner ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+}
+#banner ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#banner img{
+    float: left;
+    height: 70px;
+    margin-left: 50px;
+    width: 200px;
+
+}
+#main{
+    width: 700px;
+    margin-left: 100px;
+}
+#main h1{
+    color: rgb(6, 88, 88);
+    border-bottom: 1px dotted black;
+}
+footer p{
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+    color: rgb(39, 44, 39);
+
+}
+

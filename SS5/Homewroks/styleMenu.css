@@ -1,0 +1,14 @@
+.Box{
+    border: 2px solid black;
+    height: 300px;
+    width: 700px;
+}
+.Box .ul1 li{
+    float: left;
+    margin: 10px;
+}
+.Box .ul2 li{
+    clear: left;
+    position: relative;
+    left:70px;
+}

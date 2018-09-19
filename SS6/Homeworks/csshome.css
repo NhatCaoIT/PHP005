@@ -1,0 +1,126 @@
+#boss{
+    margin-top: -18px;
+    margin-left: 0%;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background: rgba(98, 98, 235, 0.877);
+}
+#header ul{
+    list-style-type: none;
+    float: left;
+}
+#header ul li{
+    float: left;
+    border-right:  1px solid white;
+    height: 43px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+#header ul li a{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 5px;
+}
+#header p{
+    color: white;
+    text-align: left;
+}
+#banner img{
+    width: 100%;
+    height: 200px;
+}
+#main{
+    min-height: 600px;
+    width: 100%;
+}
+#main-left{
+    width: 30%;
+    min-height: 498px;
+    border: 1px solid rgba(243, 238, 238, 0.945);
+    float: left;
+}
+#main-right{
+    width: 69%;
+    min-height: 498px;
+    float: left;
+    margin-right: 4px;
+}
+#main #main-left h3{
+    background: rgb(41, 28, 218) url(icon.png) no-repeat 2px;
+    color: rgb(240, 247, 241);
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+} 
+#main #main-left ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+#main #main-left ul li a{
+    text-decoration: none;
+    background: url(icon1.ico) no-repeat;
+    height: 40px;
+    text-indent: 35px;
+    border-bottom: 1px solid gainsboro;
+    display: block;
+}
+#main-right #top-left{
+    width: 60%;;
+    min-height: 600px;
+    float: left;
+}
+#main-right #top-left ul{
+    margin: 0px;
+    padding: 0xp;
+}
+#main-right #top-left ul li{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(241, 240, 237);
+    margin-right: 2px;
+}
+#main-right #top-left img{
+    width: 40%;
+    float: left;
+    height: 100px;
+    margin-right: 5px;
+}
+#main-right #right{
+    float: left;
+    width: 39%;;
+    padding: 0px;
+    margin: 0px;
+    border-left: 1px solid gainsboro;
+    min-height: 600px;
+}
+#main-right #right h3{
+    height: 40px;
+    color: blue;
+    text-align: center;
+}
+#main-right #right ul li{
+    border-bottom: 1px solid gainsboro;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 10px;   
+}
+#main-right #right ul li a{
+    text-decoration: none;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-image: url(footer.png);
+}
+/* 820px */
+@media screen and (min-width:820px){
+
+
+}
