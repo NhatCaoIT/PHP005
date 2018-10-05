@@ -1,0 +1,37 @@
+.img{
+    float: left;
+    border: 1px solid rgb(230, 219, 219);
+    margin-right: 15px;
+    
+}
+#boss{
+    width: 100%;
+    margin: auto;
+}
+p{
+    margin: 10px;
+    text-align: center;
+}
+.addtocart{
+        background-color: #4CAF50;
+        color: white;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        height: 30px;
+        width: 80px;
+        border: none;   
+        margin-left: 125px;
+}
+#sanpham{
+    margin: 0px auto;
+}
+#gio{
+    color: aliceblue;
+    background: #4CAF50;
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    
+}

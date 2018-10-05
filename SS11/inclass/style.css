@@ -1,0 +1,26 @@
+i{
+    color: red;
+}
+#boss{
+    background: rgb(196, 241, 198);
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(243, 247, 244);
+    outline: none;
+}
+#submit{
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    border: none;   
+}
+h3{
+    margin-bottom: 5px;
+    color: rgb(22, 17, 17);
+}

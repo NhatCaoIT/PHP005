@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <form action="#" name="registerForm" enctype="multipart/form-data">
+        <p>Name : 
+            <input type="text" name="Name" required placeholder="Nhap ho va ten">
+        </p>
+        <p>Passwords :
+            <input type="password" name="password" required placeholder="Nhap mat khau" 
+            pattern="[a-zA-Z0-9] {6,}" title="Password 6+ alphanumeric"> 
+        </p>
+        <p> Email :
+            <input type="email" name="Email" required placeholder="Nhap Email">
+        </p>
+        <p>Number :
+            <input type="number" name="number" required max="10" min="1">
+        </p>
+        <p>Range :
+            <input type="range" name="ranger" required>
+        </p>
+        <p>Website :
+            <input type="url" name="website" placeholder="..." required>
+        </p>
+        <input type="file" name="avatar" accept="image/jpg, image/png">
+        <p><input type="submit" name="register" value="Register"></p>
+    </form>
+</body>
+</html>
