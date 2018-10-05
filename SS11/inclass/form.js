@@ -3,7 +3,6 @@ $('#submit').click(function(){
     var now = new Date();
     var d  = now.getFullYear();
     var clear = $('#yearold').val();
-    var bien = true;
     console.log(d);
     // dieu kien cho nam sinh
     if($('#yearold').val() <= 1990 || $('#yearold').val() > d  ){
@@ -24,8 +23,6 @@ $('#submit').click(function(){
         $('#tb1').html('* ban chua nhap ten !');
     }
     // chuyen trang khi chon gioi tinh
-    if($('radio') == $('#male')) {
-        window.location.replace('file:///C:/Users/NhatCao/Desktop/PHP005/SS11/inclass/female.html');
-    }
+   
     
 })
